@@ -39,7 +39,7 @@ android {
 dependencies {
     implementation(project(":app"))
     implementation(project(":core"))
-    implementation(project(":online-store-local"))
+    implementation(projects.onlineStoreRemote)
     implementation(libs.androidx.activity.compose)
     implementation(compose.ui)
     implementation(compose.material3)

@@ -31,7 +31,7 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 include(":app")
 include(":core")
-include(":online-store-local")
+include(":online-store-remote")
 include(":decompose-router")
 include(":app:desktop")
 include(":app:androidApp")
