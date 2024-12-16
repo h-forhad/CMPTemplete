@@ -26,7 +26,7 @@ kotlin {
         api(projects.decomposeRouter)
 
         implementation(projects.core)
-        implementation(projects.onlineStore)
+        implementation(projects.onlineStoreLocal)
 
         implementation(compose.ui)
         implementation(compose.foundation)
