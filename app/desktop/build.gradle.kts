@@ -13,7 +13,7 @@ dependencies {
     implementation(projects.decomposeRouter)
     implementation(projects.app)
     implementation(projects.core)
-    implementation(projects.onlineStore)
+    implementation(projects.onlineStoreRemote)
     implementation(compose.desktop.currentOs)
     implementation(libs.material.window.size)
     implementation(compose.runtime)
