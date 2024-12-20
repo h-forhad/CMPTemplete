@@ -1,3 +1,4 @@
 [submodule "online-store-remote"]
 	path = online-store-remote
 	url = https://github.com/h-forhad/online-store-remote.git
+	branch = 0.0.1
