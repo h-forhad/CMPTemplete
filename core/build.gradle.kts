@@ -85,7 +85,7 @@ android {
 }
 
 buildkonfig {
-    packageName = "com.greenrobotdev.wanderwise.core"
+    packageName = "com.greenrobotdev.planner.core"
 
     defaultConfigs {
         val apiKey: String = gradleLocalProperties(projectRootDir = rootDir, providers = providers)

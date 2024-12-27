@@ -10,7 +10,7 @@ import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.unit.dp
 import androidx.core.view.WindowCompat
-import au.com.gridstone.pscore.app.screens.root.RootScreen
+import com.greenrobotdev.favily.screen.root.RootScreen
 import com.greenrobotdev.favily.theme.AppTheme
 import com.greenrobotdev.core.utils.LocalWindowSizeClass
 import com.greenrobotdev.onlinestore.di.appStorage
