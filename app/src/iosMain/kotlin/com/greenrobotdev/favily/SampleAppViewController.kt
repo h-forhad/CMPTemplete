@@ -18,7 +18,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.ComposeUIViewController
-import au.com.gridstone.pscore.app.screens.root.RootScreen
 import com.greenrobotdev.core.coreModule
 import com.greenrobotdev.core.utils.LocalWindowSizeClass
 import com.greenrobotdev.core.utils.Settings
@@ -28,6 +27,7 @@ import com.greenrobotdev.favily.data.models.APP_SETTINGS_APP_THEME
 import com.greenrobotdev.favily.data.models.AppSettings
 import com.greenrobotdev.favily.data.models.AppTheme
 import com.greenrobotdev.favily.data.models.get
+import com.greenrobotdev.favily.screen.root.RootScreen
 import com.greenrobotdev.favily.theme.AppTheme
 import com.greenrobotdev.onlinestore.di.appStorage
 import com.greenrobotdev.onlinestore.onlineStoreModule

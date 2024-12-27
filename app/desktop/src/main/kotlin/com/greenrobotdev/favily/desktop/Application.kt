@@ -10,7 +10,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.WindowState
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
-import au.com.gridstone.pscore.app.screens.root.RootScreen
+import com.greenrobotdev.favily.screen.root.RootScreen
 import com.greenrobotdev.core.coreModule
 import com.greenrobotdev.core.utils.LocalWindowSizeClass
 import com.greenrobotdev.onlinestore.di.appStorage
