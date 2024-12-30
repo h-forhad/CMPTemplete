@@ -30,8 +30,8 @@ dependencyResolutionManagement {
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 include(":app")
-include(":core")
-include(":online-store-remote")
+include(":CMP-Core")
+include(":online-store")
 include(":decompose-router")
 include(":app:desktop")
 include(":app:androidApp")
