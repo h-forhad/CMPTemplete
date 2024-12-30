@@ -32,7 +32,6 @@ import androidx.compose.ui.unit.dp
 import com.arkivanov.decompose.extensions.compose.stack.animation.fade
 import com.arkivanov.decompose.extensions.compose.stack.animation.stackAnimation
 import com.greenrobotdev.core.utils.LocalWindowSizeClass
-import com.greenrobotdev.onlinestore.screen.home.HomeScreen
 import composemultiplatformtemplate.app.generated.resources.Res
 import composemultiplatformtemplate.app.generated.resources.ic_test
 import io.github.xxfast.decompose.router.stack.RoutedContent
@@ -40,6 +39,7 @@ import io.github.xxfast.decompose.router.stack.Router
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import com.arkivanov.decompose.router.stack.pushToFront
+import com.greenrobotdev.favily.screen.home.HomeScreen
 import com.greenrobotdev.favily.screen.settings.SettingsScreen
 import io.github.xxfast.decompose.router.stack.rememberRouter
 import org.jetbrains.compose.resources.painterResource

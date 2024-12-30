@@ -7,9 +7,6 @@ import com.greenrobotdev.core.utils.Settings
 import com.greenrobotdev.favily.data.models.AppSettings
 import com.greenrobotdev.favily.data.models.AppTheme
 import com.greenrobotdev.favily.data.models.get
-import com.greenrobotdev.onlinestore.data.cartStore
-import com.greenrobotdev.onlinestore.domain.entity.CartItem
-import com.russhwolf.settings.Settings
 import io.github.xxfast.decompose.router.RouterContext
 import io.github.xxfast.decompose.router.state
 import kotlinx.coroutines.flow.MutableSharedFlow
