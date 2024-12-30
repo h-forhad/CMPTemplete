@@ -120,9 +120,9 @@ buildkonfig {
 
 object App {
     object Versions {
-        val major: Int = 1
-        val minor: Int = 3
-        val patch: Int = 0
+        val major: Int = 0
+        val minor: Int = 0
+        val patch: Int = 1
 
         val suffix: String? = null
 
