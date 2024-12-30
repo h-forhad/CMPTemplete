@@ -42,6 +42,7 @@ dependencies {
 
     implementation(projects.cmpCore)
     implementation(projects.onlineStore)
+    implementation(project(":online-store:online-store-remote"))
     implementation(libs.androidx.activity.compose)
     implementation(compose.ui)
     implementation(compose.material3)
