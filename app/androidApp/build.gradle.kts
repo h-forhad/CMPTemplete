@@ -38,8 +38,10 @@ android {
 
 dependencies {
     implementation(project(":app"))
-    implementation(project(":core"))
-    implementation(projects.onlineStoreRemote)
+
+
+    implementation(projects.cmpCore)
+    implementation(projects.onlineStore)
     implementation(libs.androidx.activity.compose)
     implementation(compose.ui)
     implementation(compose.material3)

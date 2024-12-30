@@ -25,8 +25,8 @@ kotlin {
     sourceSets.commonMain.dependencies {
         api(projects.decomposeRouter)
 
-        implementation(projects.core)
-        implementation(projects.onlineStoreRemote)
+        implementation(projects.cmpCore)
+        implementation(projects.onlineStore)
 
         implementation(compose.ui)
         implementation(compose.foundation)
