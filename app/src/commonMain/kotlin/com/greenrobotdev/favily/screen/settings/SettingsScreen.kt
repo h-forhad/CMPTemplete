@@ -52,13 +52,8 @@ import com.greenrobotdev.core.ui.AppSystemBarStyle
 import com.greenrobotdev.core.ui.edgeToEdge
 import com.greenrobotdev.core.utils.navigationBarPadding
 import com.greenrobotdev.favily.data.models.AppTheme
-import com.greenrobotdev.onlinestore.screen.cart.CartProceedView
-import com.greenrobotdev.onlinestore.screen.cart.CartProductList
-import com.greenrobotdev.onlinestore.screen.cart.nothing
-import com.greenrobotdev.onlinestore.ui.EmptyView
 import io.github.xxfast.decompose.router.rememberOnRoute
 import io.github.xxfast.decompose.router.slot.RoutedContent
-import io.github.xxfast.decompose.router.slot.Router
 import io.github.xxfast.decompose.router.slot.rememberRouter
 
 @OptIn(ExperimentalMaterial3Api::class)

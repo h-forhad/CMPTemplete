@@ -8,8 +8,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import com.greenrobotdev.favily.data.models.AppSettings
 import com.greenrobotdev.favily.data.models.set
-import com.greenrobotdev.onlinestore.screen.cart.CartEvent
-import com.greenrobotdev.onlinestore.screen.cart.CartState
 import com.russhwolf.settings.Settings
 import io.github.xxfast.kstore.KStore
 import kotlinx.coroutines.flow.Flow
