@@ -10,6 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.arkivanov.decompose.router.stack.pop
 import com.arkivanov.decompose.router.stack.push
+import com.greenrobotdev.onlinestore.StoreHomeScreen
 import io.github.xxfast.decompose.router.stack.RoutedContent
 import io.github.xxfast.decompose.router.stack.Router
 import io.github.xxfast.decompose.router.stack.rememberRouter
@@ -24,18 +25,7 @@ fun HomeScreen() {
         router = router,
     ) { screen ->
         when (screen) {
-            StoryHomeScreen.Home -> Column(
-                modifier = Modifier.fillMaxSize(),
-                verticalArrangement = Arrangement.Center,
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                Text("Home")
-                Button(onClick = {
-                    router.push(StoryHomeScreen.PlanDetails("1"))
-                }) {
-                    Text("Go to Plan Details")
-                }
-            }
+            StoryHomeScreen.Home -> StoreHomeScreen()
 
             is StoryHomeScreen.PlanDetails -> Column(
                 modifier = Modifier.fillMaxSize(),
