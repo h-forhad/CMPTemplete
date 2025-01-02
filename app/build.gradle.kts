@@ -124,6 +124,7 @@ object App {
         val minor: Int = 0
         val patch: Int = 3
 
+
         val suffix: String? = null
 
         val name = "$major.$minor.$patch"
