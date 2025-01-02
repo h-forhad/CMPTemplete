@@ -122,7 +122,7 @@ object App {
     object Versions {
         val major: Int = 0
         val minor: Int = 0
-        val patch: Int = 3
+        val patch: Int = 4
 
 
         val suffix: String? = null
