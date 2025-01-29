@@ -2,9 +2,7 @@
 	path = CMP-Core
 	url = https://github.com/h-forhad/CMP-Core
 	branch = 0.0.2
-	ignore = all
 [submodule "online-store/online-store-remote"]
 	path = online-store/online-store-remote
 	url = https://github.com/h-forhad/online-store.git
 	branch = 0.0.3
-	ignore = all
