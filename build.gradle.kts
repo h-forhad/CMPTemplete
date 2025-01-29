@@ -7,3 +7,16 @@ plugins {
     alias(libs.plugins.jetbrainsCompose).apply(false)
     alias(libs.plugins.buildkonfig).apply(false)
 }
+
+apply(from = "git-hooks.gradle.kts")
+//task("addPreCommitGitHookOnBuild") {
+//    println("⚈ ⚈ ⚈ Running Add Pre Commit Git Hook Script on Build ⚈ ⚈ ⚈")
+//    exec {
+//        commandLine("cp", "./.scripts/pre-commit", "./.git/hooks")
+//    }
+//    println("✅ Added Pre Commit Git Hook Script.")
+//}
+
+tasks.register("ensureGitHooks") {
+    dependsOn("installGitPreCommitHook")
+}
